@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.cotainer {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* border: solid; */
+    padding: 15px 15px;
+    width: 450px;
+    border-radius: 10px 5px;
+    box-shadow: inset;
+}
+
+.formstyle {
+    width: 400px;
+    margin: auto;
+}
+
+.btn {
+    width: 400px;
+
+}
+
+.forgat {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonstyle {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+
+}
+
+.buttonstyle button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headings h1{
+    color: #0099ff;
+    font-weight: bold;
+}
+
+.headings p{
+    width: 400px;
+}
