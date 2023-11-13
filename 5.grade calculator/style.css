@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#userInput {
+    border: 2px solid #dadada;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dadada;
+}
+
+::placeholder {
+    color: #3d3d3d;
+}
+
+button {
+    background-color: #002400;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#result {
+    border: 2px solid #dadada;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dadada;
+    width: 150px;
+    text-align: center;
+}
