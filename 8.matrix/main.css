@@ -1,0 +1,14 @@
+input{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+.valuesCont{
+    padding: 10px;
+}
