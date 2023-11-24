@@ -6,6 +6,11 @@
 // }
 
 
+
+
+
+
+
 // let arr2 = [
 //     [1, 2, 3],
 //     ["a", "b", "c"],
@@ -22,6 +27,10 @@
 
 //     }
 // }
+
+
+
+
 
 
 // let arr3 = [
@@ -43,4 +52,11 @@
 //     }
 // }
 
-document.getElementById("result").innerText = "hello world"
+
+
+
+
+
+document.getElementById("result").innerHTML = "hi"
+document.querySelector(".result").innerHTML = "hi"
+document.getElementById("result").className = "myStyle"
